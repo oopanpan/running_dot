@@ -1,0 +1,12 @@
+.basic_btn {
+    border-radius: 25px;
+    min-width: 100px;
+    min-height: 50px;
+    font-size: 25px;
+    border: 2px #000 solid;
+    cursor: pointer;
+}
+
+.basic_btn:hover {
+    transform: translate(-2px, -2px);
+}
