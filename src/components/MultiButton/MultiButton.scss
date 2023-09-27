@@ -7,6 +7,11 @@
     cursor: pointer;
 }
 
+@keyframes hoverBtn {
+    from { transform: translate(0, 0); }
+    to { transform: translate(-3px, -3px); }
+}
+
 .basic_btn:hover {
-    transform: translate(-2px, -2px);
+    animation: hoverBtn 0.2s forwards;
 }

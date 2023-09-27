@@ -1,0 +1,26 @@
+@keyframes spectrum {
+    0% { background-color: #ffccdd;}
+    14% { background-color: #ffccb3;}
+    28% { background-color: #ffff66;}
+    42% { background-color: #ddff99;}
+    56% { background-color: #99ffbb;}
+    70% { background-color: #80bfff;}
+    84% { background-color: #ffb3ff;}
+    100% { background-color: #ff99cc;}
+}
+
+.dot_border {
+    padding: 15px;
+    border-radius: 100%;
+    position: fixed;
+
+    .dot {
+        min-width: 32px;
+        min-height: 32px;
+        border-radius: 100%;
+        width: 5%;
+        aspect-ratio: 1;
+        animation: spectrum infinite 15s;
+        transition: left 1s, top 1s;
+    }
+}

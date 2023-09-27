@@ -1,9 +1,13 @@
 import { useState } from "react";
+import './DotContainer.scss'
+import Dot from '../Dot/index.js';
 
 function DotContainer() {
 
   return (
-    <div>DotContainer</div>
+    <div className="dot_container">
+        <Dot />
+    </div>
   )
 }
 
